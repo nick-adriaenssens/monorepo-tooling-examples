@@ -395,11 +395,13 @@
       },
       {
           packageName: "@my-org/panel",
-          projectFolder: "packages/panel"
+          projectFolder: "packages/panel",
+          shouldPublish: true
       },
       {
           packageName: "@my-org/header",
-          projectFolder: "packages/header"
+          projectFolder: "packages/header",
+          shouldPublish: true
       }
     // {
     //   /**
