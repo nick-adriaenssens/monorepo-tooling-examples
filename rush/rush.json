@@ -402,6 +402,11 @@
           packageName: "@my-org/header",
           projectFolder: "packages/header",
           shouldPublish: true
+      },
+      {
+          packageName: "testpkg",
+          projectFolder: "packages/testpkg",
+          shouldPublish: true
       }
     // {
     //   /**
