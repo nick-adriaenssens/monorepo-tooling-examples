@@ -24,13 +24,25 @@
           "summary": "Run lint checks for all projects"
       },
       {
+          "name": "test",
+          "commandKind": "bulk",
+          "description": "This command will run tests in entire repository by calling 'test' script in packages",
+          "allowWarningsInSuccessfulBuild": false,
+          "enableParallelism": true,
+          "ignoreDependencyOrder": true,
+          "ignoreMissingScript": false,
+          "incremental": false,
+          "safeForSimultaneousRushProcesses": false,
+          "summary": "Run tests for all projects"
+      },
+      {
           "name": "prettier",
           "commandKind": "global",
           "summary": "Used by the pre-commit Git hook. This command invokes Prettier to reformat staged changes.",
           "autoinstallerName": "cli-tools",
           "shellCommand": "pretty-quick --staged",
           "safeForSimultaneousRushProcesses": true
-      }
+      },
     // {
     //   /**
     //    * (Required) Determines the type of custom command.
