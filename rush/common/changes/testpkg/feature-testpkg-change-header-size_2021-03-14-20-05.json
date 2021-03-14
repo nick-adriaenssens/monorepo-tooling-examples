@@ -2,8 +2,8 @@
   "changes": [
     {
       "packageName": "testpkg",
-      "comment": "Add testpkg",
-      "type": "minor"
+      "comment": "Changed header size to h4",
+      "type": "patch"
     }
   ],
   "packageName": "testpkg",
