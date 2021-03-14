@@ -1,0 +1,17 @@
+{
+  "name": "testpkg",
+  "entries": [
+    {
+      "version": "0.2.0",
+      "tag": "testpkg_v0.2.0",
+      "date": "Sun, 14 Mar 2021 19:51:35 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Add testpkg"
+          }
+        ]
+      }
+    }
+  ]
+}
