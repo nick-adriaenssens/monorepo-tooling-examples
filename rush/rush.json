@@ -394,20 +394,20 @@
           projectFolder: "apps/demo-app"
       },
       {
-          packageName: "@my-org/panel",
-          projectFolder: "packages/panel",
-          shouldPublish: true
-      },
-      {
           packageName: "@my-org/header",
           projectFolder: "packages/header",
           shouldPublish: true
       },
       {
-          packageName: "testpkg",
-          projectFolder: "packages/testpkg",
+          packageName: "@my-org/panel",
+          projectFolder: "packages/panel",
           shouldPublish: true
-      }
+      },
+//      {
+//          packageName: "testpkg",
+//          projectFolder: "packages/testpkg",
+//          shouldPublish: true
+//      }
     // {
     //   /**
     //    * The NPM package name of the project (must match package.json)
