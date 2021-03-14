@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "testpkg",
+      "comment": "Add testpkg",
+      "type": "minor"
+    }
+  ],
+  "packageName": "testpkg",
+  "email": "nick.adriaenssens@gmail.com"
+}
