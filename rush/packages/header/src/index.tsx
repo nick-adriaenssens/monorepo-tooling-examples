@@ -1,5 +1,5 @@
 import * as React from 'react';
 
-export const Header = (props: { text: string }) => {
-  return <h4>{ props.text }</h4>;
+export const Header = (props: { title: string }) => {
+  return <h4>{ props.title }</h4>;
 };
