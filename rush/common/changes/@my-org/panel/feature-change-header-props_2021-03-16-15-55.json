@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "@my-org/panel",
+      "comment": "Update header package",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@my-org/panel",
+  "email": "nick.adriaenssens@gmail.com"
+}

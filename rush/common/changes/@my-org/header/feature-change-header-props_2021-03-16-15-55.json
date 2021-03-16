@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "@my-org/header",
+      "comment": "Renamed header prop text to title",
+      "type": "major"
+    }
+  ],
+  "packageName": "@my-org/header",
+  "email": "nick.adriaenssens@gmail.com"
+}
