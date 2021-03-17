@@ -10,7 +10,8 @@ type PanelProps = {
 export const Panel: FunctionComponent<PanelProps> = ({ title, children }) => {
   return (
     <div className="panel">
-        <Header text={title}/>
+
+        <Header title={title}/>
 
         <div className="panel-content">
             { children }
